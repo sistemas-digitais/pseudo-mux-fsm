@@ -21,9 +21,9 @@ use ieee.std_logic_1164.all;
 entity pseudo_mux is
     port (
         CLOCK   : in	std_logic;
-        CONTROL : in    std_logic;
+        S       : in    std_logic;
         A,B,C,D : in    std_logic;
-        OUTPUT  : out   std_logic
+        Q       : out   std_logic
     );
 end pseudo_mux;
 
